@@ -168,5 +168,5 @@ kubectl logs {pod-name}
 ## Links
 * k8s official documentation: https://kubernetes.io/docs/home/
 * webapp code repo: https://github.com/AlexJDevil/k8s-web-to-nginx
-* webapp image on Docker Hub: https://hub.docker.com/repository/docker/alexjdevil/k8s-web-to-nginx/general
+* k8s-web-to-nginx image on Docker Hub: https://hub.docker.com/repository/docker/alexjdevil/k8s-web-to-nginx/general
 
