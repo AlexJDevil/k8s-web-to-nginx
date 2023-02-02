@@ -18,7 +18,7 @@ cat /etc/hosts
 ```
 <br />
 
-## Multiple Deployments - Project description -
+## Multiple Deployments - Project Overview -
 * Create a new deployment for our node.js application, named web
 * This application contains two routes
 ```yaml
@@ -35,15 +35,15 @@ cat /etc/hosts
 
 ## Application manifest files
 ```yaml
-/application/index.mjs
-/application/package.json
-/application/package-lock.json
+application/index.mjs
+application/package.json
+application/package-lock.json
 ```
 <br />
 
 ## Docker manifest files
 ```yaml
-/application/Dockerfile
+application/Dockerfile
 ```
 <br />
 
@@ -105,10 +105,9 @@ kubectl logs {pod-name}
 ```
 
 <br />
-<br />
 
 ## Deploy everything
-* Deploy all deployments and services yaml's
+* Apply all deployments and services yaml's
 ```yaml
   kubectl apply -f ./deployment/k8s-web-to-nginx.yaml
   kubectl apply -f ./deployment/nginx.yaml
@@ -125,13 +124,12 @@ kubectl logs {pod-name}
   kubectl describe service k8s-web-to-nginx
   kubectl describe service nginx 
 ```
-* Access the Application using both endpoints
+* Access the Application on both endpoints
 ```yaml
   http://localhost:3333
   http://localhost:3333/nginx
 ```
 
-<br />
 <br />
 
 ## DNS or or name resolution of pods when querying inside the Kubernetes Cluster
@@ -149,7 +147,6 @@ kubectl logs {pod-name}
 ```
 
 <br />
-<br />
 
 ### Clean up everything
 ```yaml
@@ -162,7 +159,6 @@ kubectl logs {pod-name}
 ## Stop or quit your Kubernetes cluster
 * To pause or quit click on the Moby icon in Upper right corner and chose either pause or stop 
 
-<br />
 <br />
 
 ## Links
