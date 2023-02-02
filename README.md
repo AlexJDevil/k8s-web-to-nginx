@@ -153,8 +153,8 @@ kubectl logs {pod-name}
 
 ### Clean up everything
 ```yaml
-  kubectl apply -f ./deployment/k8s-web-to-nginx.yaml
-  kubectl apply -f ./deployment/nginx.yaml
+  kubectl delete -f ./deployment/k8s-web-to-nginx.yaml
+  kubectl delete -f ./deployment/nginx.yaml
 ```
 
 <br />
