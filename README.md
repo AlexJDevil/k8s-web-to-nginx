@@ -18,7 +18,7 @@ cat /etc/hosts
 ```
 <br />
 
-## Multiple Deployments - Project Overview -
+## Project Overview
 * Create a new deployment for our node.js application, named web
 * This application contains two routes
 ```yaml
