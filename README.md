@@ -33,6 +33,10 @@ cat /etc/hosts
 
 <br />
 
+![Workflow](images/k8s-web-to-nginx.jpg)
+
+<br />
+
 ## Application manifest files
 ```yaml
 application/index.mjs
